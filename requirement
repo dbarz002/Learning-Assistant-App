@@ -1,0 +1,14 @@
+– List data and allow detail views using multiple controllers/views 
+Our application accomplishes this by using a navigation controller with over 10+ different views that have data and/or create data to be displayed to the user.
+
+– Persistence: preserve application state
+The application is persistent since it uses core data. The data is safely stored into the sql lite data base that was created by the nspersistence store coordinator and when the application is shutdown and re opened all accounts are still in the database.
+
+– Use a built-in device/sensor: Camera, accelerometer, etc.
+We use the camera to take a picture of the student.
+
+– Core Data or SQLite
+As mentioned before our application uses core data and we have 4 different entities which include: Professor, Student, Appointment, and LA
+
+– Search feature 
+The search feature is implemented in the update/delete appointment view controller where the student can type a learning assistant name and find the appointments made with that particular learning assistant.
